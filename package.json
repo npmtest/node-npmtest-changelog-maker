@@ -1,1 +1,39 @@
-{     "devDependencies": {         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-changelog-maker",     "homepage": "https://github.com/npmtest/node-npmtest-changelog-maker",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-changelog-maker.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "#### basic test coverage for  changelog-maker (v2.2.5)  [![npm package](https://img.shields.io/npm/v/npmtest-changelog-maker.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-changelog-maker) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-changelog-maker.svg)](https://travis-ci.org/npmtest/node-npmtest-changelog-maker)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-changelog-maker",
+    "keywords": [
+        "coverage",
+        "test",
+        "changelog-maker"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_changelog_maker.js",
+    "name": "npmtest-changelog-maker",
+    "nameAlias": "npmtest_changelog_maker",
+    "nameOriginal": "npmtest-changelog-maker",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-changelog-maker.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "npm install \"kaizhu256/node-utility2#alpha\" && utility2 shDeployHeroku",
+        "postinstall": "[ ! -f npm_scripts.sh ] || ./npm_scripts.sh postinstall",
+        "start": "PORT=${PORT:-8080} utility2 start test.js",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
