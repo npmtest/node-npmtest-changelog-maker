@@ -1,15 +1,15 @@
 <svg height="190" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="190" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-21 07:26:08 +0000    16303 bytes  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-21 07:26:08 +0000     1125 bytes  LICENSE.md</tspan>
-<tspan x="10" y="58">  2.  2017-04-21 07:26:08 +0000     4314 bytes  README.md</tspan>
-<tspan x="10" y="74">  3.  2017-04-21 07:26:08 +0000     4048 bytes  changelog-maker.js</tspan>
-<tspan x="10" y="90">  4.  2017-04-21 07:26:08 +0000     1236 bytes  collect-commit-labels.js</tspan>
-<tspan x="10" y="106">  5.  2017-04-21 07:26:08 +0000     2330 bytes  commit-to-output.js</tspan>
-<tspan x="10" y="122">  6.  2017-04-21 07:26:08 +0000      456 bytes  group-commits.js</tspan>
-<tspan x="10" y="138">  7.  2017-04-21 07:26:08 +0000     1668 bytes  groups.js</tspan>
-<tspan x="10" y="154">  8.  2017-04-21 07:26:08 +0000      767 bytes  package.json</tspan>
-<tspan x="10" y="170">  9.  2017-04-21 07:26:08 +0000      359 bytes  reverts.js</tspan>
+<tspan x="10" y="26">  0.  2017-04-21 07:27:13 +0000    16303 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-21 07:27:13 +0000     1125 bytes  LICENSE.md</tspan>
+<tspan x="10" y="58">  2.  2017-04-21 07:27:13 +0000     4314 bytes  README.md</tspan>
+<tspan x="10" y="74">  3.  2017-04-21 07:27:13 +0000     4048 bytes  changelog-maker.js</tspan>
+<tspan x="10" y="90">  4.  2017-04-21 07:27:13 +0000     1236 bytes  collect-commit-labels.js</tspan>
+<tspan x="10" y="106">  5.  2017-04-21 07:27:13 +0000     2330 bytes  commit-to-output.js</tspan>
+<tspan x="10" y="122">  6.  2017-04-21 07:27:13 +0000      456 bytes  group-commits.js</tspan>
+<tspan x="10" y="138">  7.  2017-04-21 07:27:13 +0000     1668 bytes  groups.js</tspan>
+<tspan x="10" y="154">  8.  2017-04-21 07:27:13 +0000      767 bytes  package.json</tspan>
+<tspan x="10" y="170">  9.  2017-04-21 07:27:13 +0000      359 bytes  reverts.js</tspan>
 </text>
 </svg>
